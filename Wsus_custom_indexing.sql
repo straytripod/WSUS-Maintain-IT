@@ -17,4 +17,4 @@ CREATE NONCLUSTERED INDEX [nclSupercededUpdateID] ON [dbo].[tbRevisionSupersedes
 NOTE If custom indexes have been previously created, running the script again will result in an error similar to the following: 
 Msg 1913, Level 16, State 1, Line 4
 The operation failed because an index or statistics with name 'nclLocalizedPropertyID' already exists on table 'dbo.tbLocalizedPropertyForRevision'
-*********************************************************************\
+*********************************************************************/
