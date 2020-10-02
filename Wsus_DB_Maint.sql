@@ -16,7 +16,7 @@ The call to sqlcmd needs to have a -I (capital i) parameter, which tells SQL to 
 USE SUSDB; 
 GO 
 SET NOCOUNT ON; 
- 
+SET QUOTED_IDENTIFIER ON; 
 -- Rebuild or reorganize indexes based on their fragmentation levels 
 DECLARE @work_to_do TABLE ( 
     objectid int 
