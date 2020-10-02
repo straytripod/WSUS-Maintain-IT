@@ -694,7 +694,7 @@ $Mmenu = {
         Write-Host "3. Create Custom DB Indexes (One time event)" 
         Write-Host "4. Re-index the WSUS database"
         Write-Host "5. Decline superseded updates"
-        Write-Host "6. Run the WSUS Server Cleanup" 
+        Write-Host "6. Run the WSUS Server Cleanup [beta] Better to use the wizard for now." 
         Write-Host "7. Enable the syncronization schedule"
         Write-Host "8. New server"
         Write-Host "9. Main Menu"
